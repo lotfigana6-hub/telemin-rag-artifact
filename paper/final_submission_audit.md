@@ -95,14 +95,11 @@ security-aware context-construction layer:
 > reduces context and poison exposure while preserving or improving F1 in several
 > SOC triage settings.
 
-## Remaining Submission Blocker
+## Artifact Repository
 
-The anonymous artifact URL is still a placeholder:
+The pushed artifact repository is:
 
-`https://anonymous.4open.science/r/telemin-rag-XXXX/`
+`https://github.com/lotfigana6-hub/telemin-rag-artifact`
 
-This should be replaced only after uploading the final anonymous artifact
-package to the selected review service. The local repository includes the
-artifact manifest, dependency files, Docker/Conda bootstrap files, scripts, CSV
-outputs, figures, and fixed seeds. The local shell did not expose `git`, so no
-commit hash could be embedded in this build.
+The local repository includes the artifact manifest, dependency files,
+Docker/Conda bootstrap files, scripts, CSV outputs, figures, and fixed seeds.

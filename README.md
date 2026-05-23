@@ -23,9 +23,8 @@ TeleMin-RAG combines statistical feature importance, semantic similarity to an a
 
 ## Reproduction
 
-For double-blind review, upload this repository to an anonymous artifact service
-and replace the placeholder in the paper with the generated link, e.g.
-`https://anonymous.4open.science/r/telemin-rag-XXXX/`. The artifact includes
+The reproducibility artifact repository is available at:
+`https://github.com/lotfigana6-hub/telemin-rag-artifact`. The artifact includes
 scripts, raw public samples, result CSVs, figures, fixed seeds, `requirements.txt`,
 `requirements-lock.txt`, `environment.yml`, and `Dockerfile`. See `ARTIFACT.md`
 for the full manifest.

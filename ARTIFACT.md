@@ -1,12 +1,10 @@
 # TeleMin-RAG Artifact Manifest
 
-This artifact is prepared for anonymous double-blind review. Before submission,
-upload this repository to an anonymous artifact service, for example:
+The reproducibility artifact repository is available at:
 
-`https://anonymous.4open.science/r/telemin-rag-XXXX/`
+`https://github.com/lotfigana6-hub/telemin-rag-artifact`
 
-Replace `XXXX` with the generated anonymous repository identifier and record the
-commit hash in the paper.
+Record the pushed commit hash in the paper.
 
 ## Contents
 
