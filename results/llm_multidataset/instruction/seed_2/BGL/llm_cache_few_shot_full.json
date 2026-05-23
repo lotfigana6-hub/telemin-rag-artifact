@@ -1,0 +1,118 @@
+{
+  "25858f0db7132ba6838555b73285eab78a3a46b2ac63e75280955d1f13bbc31b": {
+    "response": "A0,ANOMALY,0.91\nA1,NORMAL,0.84\nA2,ANOMALY,0.92\nA3,ANOMALY,0.90\nA4,ANOMALY,0.89\nA5,ANOMALY,0.93\nA6,NORMAL,0.83\nA7,ANOMALY,0.92",
+    "created_at": 1779519039.3065488
+  },
+  "3cc96178bdeeba54d23b5dffbc64d49aded1498fc78780a54594ade4f2803aab": {
+    "response": "A0,ANOMALY,0.95  \nA1,ANOMALY,0.92  \nA2,ANOMALY,0.97  \nA3",
+    "created_at": 1779519044.935997
+  },
+  "fe6c6440ef7b0ddca1ec9af6a8f5da8e5d6b86b6cf2965785435237ce0db993e": {
+    "response": "A0,ANOMALY,0.97",
+    "created_at": 1779519045.856881
+  },
+  "51b6e88fd475ffbfd6168fcd053cf6ad3b525f946958338d76a82917c3a4e0b6": {
+    "response": "",
+    "created_at": 1779519047.3925939
+  },
+  "db60f0040186c019887f786007da108c94247540e7067a9ecc6a8041cddcd31c": {
+    "response": "A0,ANOMALY,0.98",
+    "created_at": 1779519048.7541468
+  },
+  "388f820ee8e219a0557a01031b58c0c0d00cf193da1c893613221eb9b26a56d8": {
+    "response": "",
+    "created_at": 1779519050.4637346
+  },
+  "7446317598e404e0d4360acccb88b679ce6f40efbfbf85a74c0d0f4b6f43be01": {
+    "response": "",
+    "created_at": 1779519052.2095606
+  },
+  "5ecc4e2df332312a02b6536367b6be2cb2eafda9ea6bbe611b5c4ed2389ac198": {
+    "response": "A0,ANOMALY,0.95",
+    "created_at": 1779519053.5357282
+  },
+  "bedd3a6aecc2af2a2c79fe6f5a12157a02e85be69fb3029c3a98c00afd0be25b": {
+    "response": "",
+    "created_at": 1779519055.1775525
+  },
+  "4733a8d3410ade6305d7575816b11aaa127f11acfab4f81a409b4aac080c9687": {
+    "response": "",
+    "created_at": 1779519056.9236422
+  },
+  "b786638b6f19ed71a55fc675a0b31fe99b92f85baa07b3413f70dc9ea9192869": {
+    "response": "A0,ANOMALY,0.95  \nA1,ANOMALY,0.94  \nA2,ANOMALY,0.93  \nA3,ANOMALY,0.94  \nA4,ANOMALY,0.95  \nA5,ANOMALY,0.92  \nA6,ANOMALY,0.93",
+    "created_at": 1779519061.2162755
+  },
+  "814087223d5aefd80180a05c1d21542b0879052c8f39e4e37f7629919bfbd51a": {
+    "response": "",
+    "created_at": 1779519065.9276328
+  },
+  "f2a0d74be0fef2f8223c8cdf64d8ee46efacc044b3ea3755c8434b488c9baff7": {
+    "response": "",
+    "created_at": 1779519067.4615574
+  },
+  "c58d75417b19a7b6de393fdf9ce4dd03c48180abd71be94f3a1591b4ccb21a7f": {
+    "response": "A0,ANOMALY,0.96",
+    "created_at": 1779519069.0021482
+  },
+  "b9d85d552a3fbc0204c6cd46fe968b63f453b267356aad543c60a9e3139887a1": {
+    "response": "A0,ANOMALY,0.95",
+    "created_at": 1779519070.2282395
+  },
+  "2b0ff558042b7c6ec9786483df3ca3e64ec3327ae0e413dc73ded29384d8ae72": {
+    "response": "",
+    "created_at": 1779519072.7894905
+  },
+  "bbc899c4e2c5a8d7b980c03fa3f58969042afa4eb912565423dc300eeef54195": {
+    "response": "",
+    "created_at": 1779519074.3252525
+  },
+  "4eead5d59866d4ca5426d56e5de3075ade77c4406e43c043130d281912bc8b00": {
+    "response": "",
+    "created_at": 1779519076.3950622
+  },
+  "5c93cbe73649e92820f9a426d915b26cf2bfd698bc53e8e46074c8617d311654": {
+    "response": "",
+    "created_at": 1779519077.9128609
+  },
+  "26014017bc304ab6a09b2464b36b02f09752c79f34cc9ab4a435ce221a70a36e": {
+    "response": "A0,ANOMALY,0.95",
+    "created_at": 1779519079.2392378
+  },
+  "4d2c1c11b724472b6d1a8a32d6a1e4b21b0e605ccc510de3104f017bc85aca5f": {
+    "response": "A0,ANOMALY,0.90  \nA1,ANOMALY,0.99  \nA2,ANOMALY,0.85  \nA3,ANOMALY,0.88  \nA4,ANOMALY,0.93  \nA5,ANOMALY,0.99  \nA6,ANOMALY,0.99  \nA7,ANOMALY,0.99",
+    "created_at": 1779519083.1308131
+  },
+  "a252855c410fe748fa7500ab421dfbc12f10139401ef397d29eb245a1fc729da": {
+    "response": "",
+    "created_at": 1779519087.2474895
+  },
+  "39dfc7a87b3ad1cbdc2c1fea5f5b49725434d0c8635808979f64f3936436b8c5": {
+    "response": "",
+    "created_at": 1779519089.0720587
+  },
+  "521e3383838f1c6ea56373bfeb86167115bdc85c34b0a8115c4c37a263e3088c": {
+    "response": "A0,ANOMALY,0.92",
+    "created_at": 1779519090.4010463
+  },
+  "6bfeb5a1b79cd12fbbe06f1d56ce211576aee1eeaa7c74d159e4c0eaba9ec401": {
+    "response": "A0,ANOMALY,0.95",
+    "created_at": 1779519091.631588
+  },
+  "abe888871ea13eb84ffccef607e3000e588b6404a204ec9aa04cdb461885a1cf": {
+    "response": "",
+    "created_at": 1779519093.3722754
+  },
+  "07ac2cf1b8ec0d3a17eea8f32dba8fb2968271e56370af1b90ca7482b2f68a91": {
+    "response": "",
+    "created_at": 1779519095.0121667
+  },
+  "c0a47ab12b98c401ed1c8fb4463b2562b5eb24b35f337525911898a75c28f4b4": {
+    "response": "",
+    "created_at": 1779519096.4433525
+  },
+  "aa62fb9b2c8e1750005b459eec70f29308f1fbcffd2ae648392a35a1d3eaf7e0": {
+    "response": "",
+    "created_at": 1779519098.2888007
+  }
+}

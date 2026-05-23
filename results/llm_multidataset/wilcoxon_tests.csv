@@ -1,0 +1,10 @@
+reference,baseline,metric,n_pairs,mean_delta,wilcoxon_stat,p_value,significant_0_05
+TeleMin-RAG,Ollama LLM few-shot Full Context (gpt-oss:20b-cloud),f1,16,0.24269209416693122,9.0,0.001007080078125,True
+TeleMin-RAG,Ollama LLM zero-shot Full Context (gpt-oss:20b-cloud),f1,16,0.2621010910223132,14.0,0.0052263638201123066,True
+TeleMin-RAG,Ollama LLM few-shot BM25-selected context (gpt-oss:20b-cloud),f1,16,0.20041124376850863,9.0,0.006318521553682498,True
+TeleMin-RAG,Ollama LLM few-shot TeleMin-selected context (gpt-oss:20b-cloud),f1,16,0.12434372494775921,25.0,0.046826465481518996,True
+TeleMin-RAG,Random-k Selection,f1,16,0.07194675632956297,13.0,0.07536823868947248,False
+TeleMin-RAG,TF-IDF/BM25 Selection,f1,16,0.07355612259044274,21.0,0.15793931050013033,False
+TeleMin-RAG,Embedding Similarity Selection,f1,16,0.03839106316370246,19.0,0.21299677467111144,False
+TeleMin-RAG,Mutual Information Feature Selection,f1,16,0.04535824252288388,17.0,0.2845026979112075,False
+TeleMin-RAG,Full Context,f1,16,0.03531414917064004,14.0,0.3139380937749148,False

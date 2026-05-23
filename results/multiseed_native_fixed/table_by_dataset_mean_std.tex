@@ -1,0 +1,19 @@
+\begin{tabular}{llrrrr}
+\toprule
+Dataset & Method & F1 & AUROC & AUPRC & Poison sel. \\
+\midrule
+BGL & TeleMin-RAG & 0.855 $\pm$ 0.046 & 0.923 $\pm$ 0.042 & 0.888 $\pm$ 0.043 & 0.000 $\pm$ 0.000 \\
+ & Embedding Similarity Selection & 0.802 $\pm$ 0.068 & 0.963 $\pm$ 0.031 & 0.923 $\pm$ 0.045 & 0.981 $\pm$ 0.012 \\
+ & Full Context & 0.798 $\pm$ 0.068 & 0.972 $\pm$ 0.013 & 0.917 $\pm$ 0.037 & 1.000 $\pm$ 0.000 \\
+ & Mutual Information Feature Selection & 0.793 $\pm$ 0.071 & 0.929 $\pm$ 0.036 & 0.876 $\pm$ 0.039 & 0.001 $\pm$ 0.003 \\
+ & TF-IDF/BM25 Selection & 0.778 $\pm$ 0.062 & 0.973 $\pm$ 0.019 & 0.922 $\pm$ 0.036 & 0.603 $\pm$ 0.062 \\
+ & Random-k Selection & 0.659 $\pm$ 0.109 & 0.909 $\pm$ 0.041 & 0.769 $\pm$ 0.089 & 0.278 $\pm$ 0.064 \\
+\midrule
+UNSW_NB15 & Embedding Similarity Selection & 0.919 $\pm$ 0.044 & 0.933 $\pm$ 0.036 & 0.962 $\pm$ 0.021 & 0.593 $\pm$ 0.154 \\
+ & TeleMin-RAG & 0.876 $\pm$ 0.043 & 0.906 $\pm$ 0.040 & 0.951 $\pm$ 0.027 & 0.000 $\pm$ 0.000 \\
+ & Full Context & 0.867 $\pm$ 0.091 & 0.955 $\pm$ 0.025 & 0.975 $\pm$ 0.013 & 1.000 $\pm$ 0.000 \\
+ & Random-k Selection & 0.845 $\pm$ 0.076 & 0.923 $\pm$ 0.042 & 0.954 $\pm$ 0.029 & 0.275 $\pm$ 0.074 \\
+ & TF-IDF/BM25 Selection & 0.733 $\pm$ 0.150 & 0.899 $\pm$ 0.076 & 0.953 $\pm$ 0.034 & 0.379 $\pm$ 0.105 \\
+ & Mutual Information Feature Selection & 0.727 $\pm$ 0.188 & 0.932 $\pm$ 0.040 & 0.960 $\pm$ 0.028 & 0.000 $\pm$ 0.000 \\
+\bottomrule
+\end{tabular}

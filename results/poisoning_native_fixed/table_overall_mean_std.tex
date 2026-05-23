@@ -1,0 +1,12 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & F1 & AUROC & AUPRC & Ctx. red. & Poison sel. & Latency ms \\
+\midrule
+Embedding Similarity Selection & 0.878 $\pm$ 0.078 & 0.962 $\pm$ 0.027 & 0.953 $\pm$ 0.042 & 0.723 $\pm$ 0.034 & 0.549 $\pm$ 0.330 & 7.512 $\pm$ 1.965 \\
+TeleMin-RAG & 0.838 $\pm$ 0.078 & 0.907 $\pm$ 0.043 & 0.912 $\pm$ 0.066 & 0.813 $\pm$ 0.065 & 0.282 $\pm$ 0.294 & 8.328 $\pm$ 0.674 \\
+Full Context & 0.829 $\pm$ 0.090 & 0.970 $\pm$ 0.010 & 0.949 $\pm$ 0.038 & 0.000 $\pm$ 0.000 & 1.000 $\pm$ 0.000 & 1.158 $\pm$ 0.254 \\
+Mutual Information Feature Selection & 0.764 $\pm$ 0.171 & 0.942 $\pm$ 0.032 & 0.926 $\pm$ 0.058 & 0.723 $\pm$ 0.034 & 0.001 $\pm$ 0.003 & 1.431 $\pm$ 0.350 \\
+Random-k Selection & 0.757 $\pm$ 0.130 & 0.921 $\pm$ 0.037 & 0.861 $\pm$ 0.115 & 0.723 $\pm$ 0.034 & 0.288 $\pm$ 0.058 & 0.592 $\pm$ 0.140 \\
+TF-IDF/BM25 Selection & 0.742 $\pm$ 0.118 & 0.932 $\pm$ 0.062 & 0.932 $\pm$ 0.037 & 0.723 $\pm$ 0.034 & 0.530 $\pm$ 0.142 & 1.038 $\pm$ 0.215 \\
+\bottomrule
+\end{tabular}

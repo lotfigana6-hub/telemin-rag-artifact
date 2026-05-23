@@ -1,0 +1,26 @@
+\begin{tabular}{llrrr}
+\toprule
+Dataset & Baseline & $n$ & $\Delta$ F1 & $p$-value \\
+\midrule
+Apache & TF-IDF/BM25 Selection & 30 & -0.0917 & 0.002414$^*$ \\
+Apache & Mutual Information Feature Selection & 30 & 0.0688 & 0.002746$^*$ \\
+Apache & Full Context & 30 & -0.0652 & 0.0221$^*$ \\
+Apache & Embedding Similarity Selection & 30 & -0.0589 & 0.05709 \\
+Apache & Random-k Selection & 30 & -0.0029 & 0.7 \\
+BGL & Random-k Selection & 30 & 0.1959 & 1.733e-06$^*$ \\
+BGL & TF-IDF/BM25 Selection & 30 & 0.0767 & 1.358e-05$^*$ \\
+BGL & Mutual Information Feature Selection & 30 & 0.0621 & 4.313e-05$^*$ \\
+BGL & Full Context & 30 & 0.0565 & 0.0001304$^*$ \\
+BGL & Embedding Similarity Selection & 30 & 0.0524 & 0.0009138$^*$ \\
+HPC & Embedding Similarity Selection & 30 & 0.1209 & 1.733e-06$^*$ \\
+HPC & TF-IDF/BM25 Selection & 30 & 0.1246 & 1.733e-06$^*$ \\
+HPC & Random-k Selection & 30 & 0.0790 & 1.605e-05$^*$ \\
+HPC & Full Context & 30 & 0.0475 & 0.0004194$^*$ \\
+HPC & Mutual Information Feature Selection & 30 & 0.0214 & 0.01899$^*$ \\
+UNSW_NB15 & Mutual Information Feature Selection & 30 & 0.1499 & 1.514e-05$^*$ \\
+UNSW_NB15 & TF-IDF/BM25 Selection & 30 & 0.1437 & 1.768e-05$^*$ \\
+UNSW_NB15 & Embedding Similarity Selection & 30 & -0.0423 & 4.58e-05$^*$ \\
+UNSW_NB15 & Random-k Selection & 30 & 0.0316 & 0.009171$^*$ \\
+UNSW_NB15 & Full Context & 30 & 0.0099 & 0.9053 \\
+\bottomrule
+\end{tabular}

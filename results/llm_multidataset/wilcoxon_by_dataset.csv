@@ -1,0 +1,37 @@
+dataset,reference,baseline,metric,n_pairs,mean_delta,wilcoxon_stat,p_value,significant_0_05
+Apache,TeleMin-RAG,Ollama LLM few-shot Full Context (gpt-oss:20b-cloud),f1,4,0.10922410922410919,2.0,0.375,False
+Apache,TeleMin-RAG,Random-k Selection,f1,4,0.12186147186147185,1.0,0.5,False
+Apache,TeleMin-RAG,TF-IDF/BM25 Selection,f1,4,-0.0965909090909091,0.0,0.5,False
+Apache,TeleMin-RAG,Ollama LLM zero-shot Full Context (gpt-oss:20b-cloud),f1,4,-0.0748418248418248,4.0,0.875,False
+Apache,TeleMin-RAG,Embedding Similarity Selection,f1,4,0.007575757575757569,5.0,1.0,False
+Apache,TeleMin-RAG,Full Context,f1,4,0.04924242424242425,0.0,1.0,False
+Apache,TeleMin-RAG,Mutual Information Feature Selection,f1,4,-0.06293706293706296,1.0,1.0,False
+Apache,TeleMin-RAG,Ollama LLM few-shot BM25-selected context (gpt-oss:20b-cloud),f1,4,0.040909090909090895,1.0,1.0,False
+Apache,TeleMin-RAG,Ollama LLM few-shot TeleMin-selected context (gpt-oss:20b-cloud),f1,4,-0.04077589077589079,5.0,1.0,False
+BGL,TeleMin-RAG,Ollama LLM few-shot BM25-selected context (gpt-oss:20b-cloud),f1,4,0.13246087246087246,0.0,0.125,False
+BGL,TeleMin-RAG,Ollama LLM few-shot Full Context (gpt-oss:20b-cloud),f1,4,0.21596459096459097,0.0,0.125,False
+BGL,TeleMin-RAG,Ollama LLM zero-shot Full Context (gpt-oss:20b-cloud),f1,4,0.22995522995522996,0.0,0.125,False
+BGL,TeleMin-RAG,Embedding Similarity Selection,f1,4,0.04563492063492061,0.0,0.5,False
+BGL,TeleMin-RAG,Ollama LLM few-shot TeleMin-selected context (gpt-oss:20b-cloud),f1,4,0.04774637127578306,1.0,0.5,False
+BGL,TeleMin-RAG,Random-k Selection,f1,4,0.086996336996337,0.0,0.5,False
+BGL,TeleMin-RAG,TF-IDF/BM25 Selection,f1,4,0.04285714285714286,1.0,0.5,False
+BGL,TeleMin-RAG,Full Context,f1,4,-0.02182539682539683,2.0,0.75,False
+BGL,TeleMin-RAG,Mutual Information Feature Selection,f1,4,0.013888888888888895,4.0,0.875,False
+HPC,TeleMin-RAG,Ollama LLM few-shot Full Context (gpt-oss:20b-cloud),f1,4,0.2266033485473214,0.0,0.125,False
+HPC,TeleMin-RAG,Ollama LLM zero-shot Full Context (gpt-oss:20b-cloud),f1,4,0.2973342201506902,0.0,0.125,False
+HPC,TeleMin-RAG,Embedding Similarity Selection,f1,4,0.09851533915001404,1.0,0.25,False
+HPC,TeleMin-RAG,Ollama LLM few-shot BM25-selected context (gpt-oss:20b-cloud),f1,4,0.10849282296650717,1.0,0.25,False
+HPC,TeleMin-RAG,TF-IDF/BM25 Selection,f1,4,0.2087283717314677,1.0,0.25,False
+HPC,TeleMin-RAG,Ollama LLM few-shot TeleMin-selected context (gpt-oss:20b-cloud),f1,4,0.28193779904306215,2.0,0.375,False
+HPC,TeleMin-RAG,Mutual Information Feature Selection,f1,4,0.07746449456975771,0.0,0.5,False
+HPC,TeleMin-RAG,Full Context,f1,4,0.06827306680247855,4.0,0.875,False
+HPC,TeleMin-RAG,Random-k Selection,f1,4,0.027208867843542706,4.0,0.875,False
+UNSW_NB15,TeleMin-RAG,Ollama LLM few-shot BM25-selected context (gpt-oss:20b-cloud),f1,4,0.519782188737564,0.0,0.125,False
+UNSW_NB15,TeleMin-RAG,Ollama LLM few-shot Full Context (gpt-oss:20b-cloud),f1,4,0.41897632793170314,0.0,0.125,False
+UNSW_NB15,TeleMin-RAG,Ollama LLM few-shot TeleMin-selected context (gpt-oss:20b-cloud),f1,4,0.2084666202480824,0.0,0.125,False
+UNSW_NB15,TeleMin-RAG,Ollama LLM zero-shot Full Context (gpt-oss:20b-cloud),f1,4,0.5959567388251575,0.0,0.125,False
+UNSW_NB15,TeleMin-RAG,Mutual Information Feature Selection,f1,4,0.15301664956995187,0.0,0.5,False
+UNSW_NB15,TeleMin-RAG,TF-IDF/BM25 Selection,f1,4,0.1392298848640695,1.0,0.5,False
+UNSW_NB15,TeleMin-RAG,Embedding Similarity Selection,f1,4,0.0018382352941176405,0.0,1.0,False
+UNSW_NB15,TeleMin-RAG,Full Context,f1,4,0.04556650246305419,0.0,1.0,False
+UNSW_NB15,TeleMin-RAG,Random-k Selection,f1,4,0.051720348616900336,1.0,1.0,False

@@ -1,0 +1,6 @@
+reference,baseline,metric,n_pairs,mean_delta,wilcoxon_stat,p_value,significant_0_05
+TeleMin-RAG,Random-k Selection,f1,48,0.08135230092944663,141.5,7.770912183066073e-06,True
+TeleMin-RAG,Embedding Similarity Selection,f1,48,-0.039793281702263844,132.0,6.464134356562339e-05,True
+TeleMin-RAG,TF-IDF/BM25 Selection,f1,48,0.0962004436402298,192.0,8.261897963176973e-05,True
+TeleMin-RAG,Mutual Information Feature Selection,f1,48,0.07404182706671328,292.0,0.017816386862893507,True
+TeleMin-RAG,Full Context,f1,48,0.009208031371850165,475.0,0.6313606142431603,False

@@ -1,0 +1,8 @@
+reference,baseline,metric,n_pairs,mean_delta,wilcoxon_stat,p_value,significant_0_05
+Full TeleMin-RAG,fixed-k TeleMin,f1,60,0.09857199286146891,45.5,8.333798486499331e-10,True
+Full TeleMin-RAG,without semantic similarity,f1,60,0.009759981893228293,56.5,0.002498041878664927,True
+Full TeleMin-RAG,without poisoning penalty,f1,60,0.01101026019234118,91.5,0.0037245366673922665,True
+Full TeleMin-RAG,without redundancy penalty,f1,60,0.01461694358157648,222.0,0.006891450023421957,True
+Full TeleMin-RAG,without bootstrap robustness,f1,60,-0.008670385001410923,293.0,0.04747217631096003,True
+Full TeleMin-RAG,without rarity,f1,60,0.006024925607343396,344.0,0.26228118254693167,False
+Full TeleMin-RAG,adaptive-k TeleMin,f1,60,0.0,0.0,1.0,False

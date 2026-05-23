@@ -1,0 +1,108 @@
+{
+  "_dataset": {
+    "dataset": "UNSW_NB15",
+    "label_source": "ground_truth_binary_attack_label",
+    "context_label_rule": "center",
+    "n_raw_events": 600,
+    "n_contexts": 75,
+    "n_train_contexts": 52,
+    "n_test_contexts": 23,
+    "context_size": 8,
+    "stride": 8,
+    "test_size": 0.3,
+    "poison_rate": 0.1,
+    "poison_strategy": "instruction",
+    "seed": 2,
+    "positive_context_rate": 0.6666666666666666,
+    "selector_suite": "main",
+    "downstream_model": "logistic"
+  },
+  "Full Context": {
+    "selector_fit_seconds": 4.700035788118839e-06,
+    "train_avg_selected_logs": 8.0,
+    "downstream_model": "logistic"
+  },
+  "Random-k Selection": {
+    "selector_fit_seconds": 1.100008375942707e-06,
+    "train_avg_selected_logs": 3.0,
+    "downstream_model": "logistic"
+  },
+  "TF-IDF/BM25 Selection": {
+    "selector_fit_seconds": 0.04073909996077418,
+    "train_avg_selected_logs": 3.0,
+    "downstream_model": "logistic"
+  },
+  "Mutual Information Feature Selection": {
+    "selector_fit_seconds": 17.783116100006737,
+    "train_avg_selected_logs": 3.0,
+    "downstream_model": "logistic"
+  },
+  "Embedding Similarity Selection": {
+    "selector_fit_seconds": 0.5354150999337435,
+    "train_avg_selected_logs": 3.0,
+    "downstream_model": "logistic"
+  },
+  "TeleMin-RAG": {
+    "selector_fit_seconds": 31.893773899995722,
+    "train_avg_selected_logs": 3.1538461538461537,
+    "downstream_model": "logistic",
+    "telemin_stop_threshold": 0.72,
+    "telemin_min_k": 1,
+    "telemin_max_k": 6,
+    "telemin_weights": {
+      "importance": 0.36,
+      "semantic": 0.16,
+      "rarity": 0.16,
+      "robustness": 0.32,
+      "redundancy": 0.3,
+      "poison_penalty": 0.55
+    },
+    "telemin_tuning_log": [],
+    "telemin_use_poison_penalty": true,
+    "telemin_use_stability": true,
+    "telemin_use_rarity": true,
+    "telemin_use_semantic": true,
+    "telemin_use_redundancy": true,
+    "telemin_adaptive_k": true
+  },
+  "Ollama LLM zero-shot Full Context (gpt-oss:20b-cloud)": {
+    "llm_provider": "ollama",
+    "llm_model": "gpt-oss:20b-cloud",
+    "llm_available": true,
+    "llm_baseline": "zero-shot-full",
+    "context_selector": "Full Context",
+    "few_shot": false,
+    "few_shot_examples": 0,
+    "cache_path": "results\\llm_multidataset\\instruction\\seed_2\\UNSW_NB15\\llm_cache_zero_shot_full.json"
+  },
+  "Ollama LLM few-shot Full Context (gpt-oss:20b-cloud)": {
+    "llm_provider": "ollama",
+    "llm_model": "gpt-oss:20b-cloud",
+    "llm_available": true,
+    "llm_baseline": "few-shot-full",
+    "context_selector": "Full Context",
+    "few_shot": true,
+    "few_shot_examples": 4,
+    "cache_path": "results\\llm_multidataset\\instruction\\seed_2\\UNSW_NB15\\llm_cache_few_shot_full.json"
+  },
+  "Ollama LLM few-shot BM25-selected context (gpt-oss:20b-cloud)": {
+    "llm_provider": "ollama",
+    "llm_model": "gpt-oss:20b-cloud",
+    "llm_available": true,
+    "llm_baseline": "few-shot-bm25",
+    "context_selector": "TF-IDF/BM25 Selection",
+    "few_shot": true,
+    "few_shot_examples": 4,
+    "cache_path": "results\\llm_multidataset\\instruction\\seed_2\\UNSW_NB15\\llm_cache_few_shot_bm25.json"
+  },
+  "Ollama LLM few-shot TeleMin-selected context (gpt-oss:20b-cloud)": {
+    "llm_provider": "ollama",
+    "llm_model": "gpt-oss:20b-cloud",
+    "llm_available": true,
+    "llm_baseline": "few-shot-telemin",
+    "context_selector": "TeleMin-RAG",
+    "few_shot": true,
+    "few_shot_examples": 4,
+    "cache_path": "results\\llm_multidataset\\instruction\\seed_2\\UNSW_NB15\\llm_cache_few_shot_telemin.json"
+  }
+}

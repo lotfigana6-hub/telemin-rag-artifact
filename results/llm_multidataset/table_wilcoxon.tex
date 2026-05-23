@@ -1,0 +1,15 @@
+\begin{tabular}{lrrr}
+\toprule
+Baseline & $n$ & $\Delta$ F1 & $p$-value \\
+\midrule
+Ollama LLM few-shot Full Context (gpt-oss:20b-cloud) & 16 & 0.2427 & 0.001007$^*$ \\
+Ollama LLM zero-shot Full Context (gpt-oss:20b-cloud) & 16 & 0.2621 & 0.005226$^*$ \\
+Ollama LLM few-shot BM25-selected context (gpt-oss:20b-cloud) & 16 & 0.2004 & 0.006319$^*$ \\
+Ollama LLM few-shot TeleMin-selected context (gpt-oss:20b-cloud) & 16 & 0.1243 & 0.04683$^*$ \\
+Random-k Selection & 16 & 0.0719 & 0.07537 \\
+TF-IDF/BM25 Selection & 16 & 0.0736 & 0.1579 \\
+Embedding Similarity Selection & 16 & 0.0384 & 0.213 \\
+Mutual Information Feature Selection & 16 & 0.0454 & 0.2845 \\
+Full Context & 16 & 0.0353 & 0.3139 \\
+\bottomrule
+\end{tabular}

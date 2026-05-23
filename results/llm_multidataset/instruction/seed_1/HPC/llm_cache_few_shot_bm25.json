@@ -1,0 +1,114 @@
+{
+  "6a2dbe8077103a3e7f38fcd04dd559c2d8fb95d320dfc4460fd6d4fc82b262c1": {
+    "response": "A0,NORMAL,0.93\nA1,NORMAL,0.92\nA2,ANOMALY,0.96\nA3,ANOMALY,0.95\nA4,ANOMALY,0.94\nA5,ANOMALY,0.94\nA6,ANOMALY,0.97\nA7,ANOMALY,0.96",
+    "created_at": 1779518899.0142643
+  },
+  "4c1d7a7c1cbc55f6838665e3be29b9d5e3abe3c13eb53a76c3f8c19b632f2462": {
+    "response": "A0,NORMAL,0.85\nA1,ANOMALY,0.92\nA2,NORMAL,0.87\nA3,ANOMALY,0.90\nA4,ANOMALY,0.88\nA5,ANOMALY,0.93\nA6,NORMAL,0.86\nA7,ANOMALY,0.91",
+    "created_at": 1779518902.179143
+  },
+  "10df0d128a469e03ac0c9870fdf7856b5671b92359fad3a85699d130f7e478b7": {
+    "response": "A0,NORMAL,0.95\nA1,NORMAL,0.85\nA2,ANOMALY,0.92\nA3,ANOMALY,0.93\nA4,NORMAL,0.88\nA5,NORMAL,0.90\nA6,NORMAL,0.97",
+    "created_at": 1779518906.0831797
+  },
+  "f8042399f4b6a69581f31e11fbf214929ccb3a470a2e0d3a270e1ede3979287f": {
+    "response": "",
+    "created_at": 1779518910.278242
+  },
+  "c948f9acd8235b43458b57db753c5eab0d2a23f85bf9b5e8355e1b6f4cc10677": {
+    "response": "",
+    "created_at": 1779518911.9249227
+  },
+  "bef1f17ee1c09f1488d29dfc39dab0bd5a7e9082d6573c5ec28950ac34f91454": {
+    "response": "",
+    "created_at": 1779518913.5477464
+  },
+  "a82f295e3db31c3b3c45eb09ddb52b99c2c749a40b2ae7a3885300d40318791f": {
+    "response": "A0,ANOMALY,0.85",
+    "created_at": 1779518915.0891893
+  },
+  "c317a258e70140c7b5cccb18bc77a14ae808c916d9364891f1a77f5fa637289b": {
+    "response": "A0,ANOMALY,0.95",
+    "created_at": 1779518916.322222
+  },
+  "64da0c7dbc4681ac03015fc42766f20226a48b78bb83684ceaf0fd875c5f0690": {
+    "response": "A0,ANOMALY,0.90",
+    "created_at": 1779518917.8539329
+  },
+  "506ca7f0113bc8661edffe98e6b09d3813233eb2c91b432e83d0d38fc373dd3a": {
+    "response": "",
+    "created_at": 1779518919.495371
+  },
+  "9e1d7fbeaaf3787c1018a0b600abc6ccdf23cc08a28b91ca179fa35ee6407154": {
+    "response": "A0,ANOMALY,0.87",
+    "created_at": 1779518921.3588743
+  },
+  "167d9d6172c08f72b184544c2a3e0b15193e80f3f612fd62662297bf1cd546dc": {
+    "response": "",
+    "created_at": 1779518922.8953216
+  },
+  "3996af65e8a1ffc962d02e3bddd4a44e31363fcc29183622aa0b1c5a0677ce8c": {
+    "response": "",
+    "created_at": 1779518927.5362906
+  },
+  "ec050a991fc92aed62d27d7e4b365a7e40241b46fe4749802775dd402c9377f1": {
+    "response": "",
+    "created_at": 1779518929.140379
+  },
+  "7f1b09de64ed4778bfeba0f4dd14ef97a67f67073d76db6ac2d24e559377f01e": {
+    "response": "",
+    "created_at": 1779518930.7488108
+  },
+  "09472f87637d435d68108b717ef00782a4bc3ea367f58487627ede3812d4fd3f": {
+    "response": "",
+    "created_at": 1779518932.411605
+  },
+  "3b10cd3950e291cf6873c8c4299b5f17bade0bc3565ba5e2dbc872588d159198": {
+    "response": "A0,ANOMALY,0.92",
+    "created_at": 1779518933.4182737
+  },
+  "ac749106800521cee4ca075582611117afaf82331ee3984d497494f98e80c143": {
+    "response": "",
+    "created_at": 1779518934.9546309
+  },
+  "084d0c4ea4f6d6d95d5037f8d310d25e1c6fcae87f09020243a0e69909d7c44c": {
+    "response": "A0,ANOMALY,0.92",
+    "created_at": 1779518936.2790904
+  },
+  "e7687bcbe42ebf1aca1b7a3878cf0df1b03fe5cac593863ce5983446059832ab": {
+    "response": "",
+    "created_at": 1779518937.9256349
+  },
+  "87f90dade767e45f817bf2e10d81f55498779d235218f88793824320a0005ce1": {
+    "response": "",
+    "created_at": 1779518939.5663285
+  },
+  "1dbe2d02b75ce433e54919f26ec7a17c97beb54671ea73f889787b7c763788c2": {
+    "response": "",
+    "created_at": 1779518943.769787
+  },
+  "d3b33c8b6d9378cf0ba47033b9cd3d1dacdcf3985f2ab39f0bf6b583d6023bf3": {
+    "response": "",
+    "created_at": 1779518945.1953015
+  },
+  "7ebc78d31dd5fffb1bb08a144055eaac4e4df800f758f23f56bd3b798462f010": {
+    "response": "",
+    "created_at": 1779518948.8868456
+  },
+  "28ea5e2f236e74be575f6235130c58407902de5b6ed679435c2ce8863c06a913": {
+    "response": "",
+    "created_at": 1779518950.4176807
+  },
+  "f2e60d431183ea241cfa6cced82ec7f976f92799d3cf65ba3777bd75effe2144": {
+    "response": "",
+    "created_at": 1779518952.0583422
+  },
+  "f5973e261548d306aa4bb5467d35a7f16028b603d0f1ef8a24dcb517ff2135d1": {
+    "response": "",
+    "created_at": 1779518953.6793578
+  },
+  "e8b445dd739da24cd676ea9f547bab89ccaa2fc3eae8e523ab5aa056cc5a9b7b": {
+    "response": "",
+    "created_at": 1779518955.2313795
+  }
+}

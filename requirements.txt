@@ -1,0 +1,11 @@
+numpy>=2.4
+pandas>=3.0
+scipy>=1.17
+scikit-learn>=1.8
+matplotlib>=3.10
+seaborn>=0.13
+requests>=2.34
+tqdm>=4.67
+joblib>=1.5
+shap>=0.51
+tabulate>=0.9

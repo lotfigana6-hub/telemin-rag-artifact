@@ -1,0 +1,16 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+Method & F1 & AUROC & AUPRC & Ctx. red. & Poison sel. & Latency ms \\
+\midrule
+TeleMin-RAG & 0.576 $\pm$ 0.244 & 0.728 $\pm$ 0.121 & 0.614 $\pm$ 0.214 & 0.651 $\pm$ 0.163 & 0.000 $\pm$ 0.000 & 19.896 $\pm$ 12.598 \\
+Full Context & 0.540 $\pm$ 0.251 & 0.792 $\pm$ 0.120 & 0.690 $\pm$ 0.204 & 0.000 $\pm$ 0.000 & 1.000 $\pm$ 0.000 & 1.846 $\pm$ 1.114 \\
+Embedding Similarity Selection & 0.537 $\pm$ 0.260 & 0.717 $\pm$ 0.160 & 0.619 $\pm$ 0.259 & 0.718 $\pm$ 0.053 & 1.000 $\pm$ 0.000 & 13.418 $\pm$ 8.688 \\
+Mutual Information Feature Selection & 0.530 $\pm$ 0.193 & 0.725 $\pm$ 0.118 & 0.631 $\pm$ 0.223 & 0.718 $\pm$ 0.053 & 0.005 $\pm$ 0.022 & 2.250 $\pm$ 1.599 \\
+Random-k Selection & 0.504 $\pm$ 0.273 & 0.693 $\pm$ 0.228 & 0.619 $\pm$ 0.281 & 0.718 $\pm$ 0.053 & 0.302 $\pm$ 0.119 & 1.165 $\pm$ 0.850 \\
+TF-IDF/BM25 Selection & 0.502 $\pm$ 0.222 & 0.720 $\pm$ 0.151 & 0.625 $\pm$ 0.225 & 0.718 $\pm$ 0.053 & 0.245 $\pm$ 0.269 & 2.067 $\pm$ 1.332 \\
+Ollama LLM few-shot TeleMin-selected context (gpt-oss:20b-cloud) & 0.451 $\pm$ 0.277 & 0.596 $\pm$ 0.191 & 0.514 $\pm$ 0.225 & 0.651 $\pm$ 0.163 & 0.000 $\pm$ 0.000 & 1034.800 $\pm$ 655.938 \\
+Ollama LLM few-shot BM25-selected context (gpt-oss:20b-cloud) & 0.375 $\pm$ 0.194 & 0.553 $\pm$ 0.126 & 0.480 $\pm$ 0.201 & 0.718 $\pm$ 0.053 & 0.245 $\pm$ 0.269 & 1318.667 $\pm$ 698.051 \\
+Ollama LLM few-shot Full Context (gpt-oss:20b-cloud) & 0.333 $\pm$ 0.176 & 0.308 $\pm$ 0.148 & 0.330 $\pm$ 0.193 & 0.000 $\pm$ 0.000 & 1.000 $\pm$ 0.000 & 1346.738 $\pm$ 571.656 \\
+Ollama LLM zero-shot Full Context (gpt-oss:20b-cloud) & 0.314 $\pm$ 0.154 & 0.224 $\pm$ 0.115 & 0.306 $\pm$ 0.170 & 0.000 $\pm$ 0.000 & 1.000 $\pm$ 0.000 & 770.595 $\pm$ 384.938 \\
+\bottomrule
+\end{tabular}
